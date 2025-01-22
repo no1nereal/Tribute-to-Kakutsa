@@ -1,0 +1,172 @@
+/* Reset any default margin or padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cinzel, serif;
+}
+
+.metal-background{
+  position: fixed;
+  height: 1080px;
+  width: 1920px;
+  mix-blend-mode: multiply;
+  opacity: 14%;
+}
+
+
+.coat-of-arms{
+  position: fixed;
+  bottom: 5%;
+  right: 3%;
+  width: 20vw;
+  height: auto;
+
+}
+
+.flag-red{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #9A0000;
+}
+
+.flag-corner{
+  width: 33%;
+  height: 37%;
+  min-width: 250px;
+  min-height: 150px;
+}
+
+.flag-black{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  height: 50%;
+}
+
+.flag-white{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+  height: 50%;
+}
+
+.title-white{
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
+  color: white;
+  font-size: clamp(53px,6.9vw,110px);
+}
+
+.title-black{
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  letter-spacing: -0.085em;
+  color: black;
+  font-size: clamp(34px,4.4vw,80px);
+  
+}
+
+.kakutsa-old{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 138vh;
+  margin-left: -70vw;
+  flex-direction: column; /* Makes items stack vertically */
+  min-height: 50vh; /* Full viewport height for testing */
+  
+}
+
+.kakutsa-old-stylish{
+  width: 35vw; /* Responsive size */
+  height: 55vh; /* Keeps aspect ratio */
+  max-width: 320px; /* Optional: prevent it from getting too big */
+  min-height: 200px;
+}
+
+  /* border+shadow for the pic */
+.kakutsa-old-stylish {
+  border: 5px solid rgba(255, 255, 255, 0.1); /* Light border */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  padding: 4px; /* Padding to create space */
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+figcaption {
+  margin-top: 10px;
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+
+
+
+#bio-paper {
+  position: fixed;
+  width: 40%;
+  height: 40%;
+  left: 30%;
+  top: 50%;
+  filter: sepia(50%);
+
+}
+
+#tribute-info{
+  position: absolute;
+  font-size: 0.85vw;
+  width: 30%;
+  height: 40%;
+  left: 39%;
+  top: 52%;
+  filter: sepia(50%);
+
+}
+
+.biography1{
+  position: absolute;
+  font-size: 0.85vw;
+  width: 33%;
+  height: 40%;
+  left: 35%;
+  top: 60%;
+  filter: sepia(50%);
+
+}
+
+
+#timeline{
+  position: absolute;
+  font-size: 1.3vw;
+  width: 60%;
+  height: 40%;
+  left: 38%;
+  top: 4%;
+  filter: sepia(50%);
+  color: azure;
+
+}
+
+#timeline li{
+  margin-bottom: 10px;
+}
+
+
+
+
+/*
+#image{
+  max-width: 100%;
+  height: auto;
+}
+  */
+  
